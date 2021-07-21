@@ -1,3 +1,5 @@
+## Welcome to the _LevelupPHP_ experience!
+
 # Getting started
 
 1. Install vendor libraries ( _composer install_ )
@@ -9,7 +11,7 @@
    - Router only allows page request to pages in templates directory
    - Source folder can be changed in config file
 
-4. Add pages/views to the templates directory
+4. Add pages/views to the templates directory (examples under templates)
    - Add a new directory for every page.
      - _Must include an index.php file_
 
@@ -136,6 +138,7 @@ All vendor required files are stored here.
 - AWS (email smtp and texting)
 - phpmailer (emails)
 - thingengineer (db library shortcode)
+- scssphp (sass)
 
 # Special Functions
 
@@ -149,7 +152,7 @@ All vendor required files are stored here.
 
 - All ajax calls are only allowed access to the SRC root directory
   - Adjust the const **SCRIPTS** in the config file to change location.
-  - All other files are off limit.
+  - All other files are off limits.
 - All ajax calls are ran through header authentication automatically.
 
 ## Happy building!

@@ -1,0 +1,16 @@
+{
+  "require": {
+    "thingengineer/mysqli-database-class": "dev-master",
+    "phpmailer/phpmailer": "^6.5",
+    "aws/aws-sdk-php": "^3.112",
+    "scssphp/scssphp": "^1.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "app/Controllers/",
+      "Http\\": "app/Http/",
+      "Models\\": "app/Models/",
+      "Utilities\\": "app/Utilities/"
+    }
+  }
+}
